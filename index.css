@@ -141,8 +141,8 @@ transform: translateX(20px);
 .image1{
     display: flex;
     position: absolute;
-    width: 40em;
-    height: 40em;
+    width: 55em;
+    height: 55em;
     border-radius: 50%;
     z-index: -11;
 }
