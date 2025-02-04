@@ -75,11 +75,11 @@ ol li:hover{
 }
 
 .animated-header{
-    color: red;
+    color: rgb(247, 2, 2);
     float: right;
     margin-top: -.5em;
     z-index: -111;
-    margin-right: 6em;
+    padding-right: 11em;
 
 }
 .title{
