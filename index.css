@@ -132,14 +132,14 @@ transform: translateX(20px);
 }
 .message-content{
     margin-top: 5em;
-    margin-left: 18em;
+    margin-left: 19em;
     position: relative;
     z-index: -1111;
     font-size: 30px;
    
 }
 .image1{
-    display: inline;
+    display: flex;
     position: absolute;
     width: 35em;
     height: 35em;
