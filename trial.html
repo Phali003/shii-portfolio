@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Giga:wght@100..900&family=Playwrite+IN:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+
+<style>
+
+.animated-header {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-letter {
+    display: inline-block;
+    position: relative;
+}
+
+.animated-block {
+    width: 13em;
+    height: 1.4em;
+    background-color: #00ff22;
+    border-left: 2px solid #030804;
+    display: flex;
+    margin-top: -1.35em;
+    margin-left: 12em;
+    animation: moveBlock 4s infinite; /* Animation for the moving block */
+}
+
+@keyframes moveBlock {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Giga:wght@100..900&family=Playwrite+IN:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+    </style>
+
+
+</head>
+
+<body>
+    <div class="title">
+        <span class="animated-header">
+            <span class="header-letter">Writer.</span>
+            <span class="animated-block">
+                <span class="header-letter">Always curious</span>
+                <span class="header-letter" style="font-size:40px;">&#128522;</span>
+            </span>
+        </span>
+    </div>
+    
+
+</body>
+
+</html>
