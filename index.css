@@ -132,19 +132,19 @@ transform: translateX(20px);
 }
 .message-content{
     margin-top: 5em;
-    margin-left: 50vw;
+    margin-left: 22em;
     position: relative;
     z-index: -1111;
     font-size: 30px;
    
 }
 .image1{
-    display: flex;
+    display: inline;
     position: absolute;
-    width: 55em;
-    height: 55em;
+    width: 40em;
+    height: 40em;
     border-radius: 50%;
-    z-index: -11;
+    z-index: 11;
 }
 .image2{
     float: right;
@@ -157,7 +157,7 @@ transform: translateX(20px);
 .image3{
     float: left;
     width: 35em;
-    height: 3em;
+    height: 35em;
     border-radius: 50%;
     margin-top: 3em;
 }
